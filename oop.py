@@ -24,5 +24,5 @@ while True:
 
     elif gender == "q" or gender == "Q":
         time.sleep(3)
-        print("Closed successfully...")
+        print("Closed successfully!")
         break
