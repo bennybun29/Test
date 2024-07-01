@@ -1,0 +1,17 @@
+$container: green;
+$sampletext: yellow;
+
+.container{
+    background-color: $container;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container div {
+    background-color: $sampletext;
+    margin: 50px;
+    width: 50px;
+    padding: 50px;
+}
